@@ -4,8 +4,9 @@ console.log("Sanity Check");
 var idElement = document.getElementById("use-id-method");
 console.log(idElement);
 //console.log(document.getElementsByTagName("div"));
-var tagElement = document.getElementsByTagName("div");
-console.log(tagElement);
+var tagElements = document.getElementsByTagName("div");
+console.log(tagElements);
 //console.log(document.getElementsByClassName("use-class-method"));
-var classElement = document.getElementsByClassName("use-class-method");
-console.log(classElement);
+var classElements = document.getElementsByClassName("use-class-method");
+console.log(classElements);
+
